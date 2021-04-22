@@ -15,7 +15,7 @@ class Player:
 
     # method shows and calculates damage.
     # variables damage_level1 and damage_level2 for start and end of damage force
-    # variable type_of_damage describes type of damage force
+    # variable type_of_damage describes type of damage force.
 
     def damages(self, other_player, damage_level1, damage_level2, type_of_damage):
         other_player.health -= random.randint(damage_level1, damage_level2)
